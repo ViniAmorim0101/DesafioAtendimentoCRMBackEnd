@@ -1,11 +1,5 @@
 # Desafio Atendimento CRM
 
-Desafio Atndimento CRM
-
-
-
-Desafio Atendimento CRM
-
 
 
 Este projeto foi desenvolvido como parte de um desafio técnico com foco em arquitetura limpa, boas práticas de desenvolvimento e organização de código. Trata-se de uma API para gerenciamento de atendimentos em um sistema de CRM, construída com .NET 8.
