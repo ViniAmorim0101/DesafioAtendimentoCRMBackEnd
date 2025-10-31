@@ -29,6 +29,8 @@ builder.Services.AddScoped<IPareceresRepository, PareceresRepository>();
 builder.Services.AddScoped<IPareceresService, PareceresService>();
 builder.Services.AddScoped<IUsuariosRepository, UsuariosRepository>();
 builder.Services.AddScoped<IUsuariosService, UsuariosService>();
+builder.Services.AddScoped<IFornecedoresRepository, FornecedoresRepository>();
+builder.Services.AddScoped<IFornecedoresService, FornecedoresService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

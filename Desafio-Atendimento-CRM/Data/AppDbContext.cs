@@ -10,5 +10,6 @@ namespace Desafio_Atendimento_CRM.Data
         public DbSet<Atendimentos> Atendimentos { get; set; }
         public DbSet<Pareceres> Pareceres { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
+        public DbSet<Fornecedores> Fornecedores { get; set; }
     }
 }

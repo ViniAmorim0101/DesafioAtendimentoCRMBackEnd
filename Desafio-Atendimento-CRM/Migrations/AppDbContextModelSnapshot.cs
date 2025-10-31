@@ -52,10 +52,6 @@ namespace Desafio_Atendimento_CRM.Migrations
 
                     b.HasKey("AtendimentosId");
 
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("UsuariosId");
-
                     b.ToTable("Atendimentos");
                 });
 
@@ -67,7 +63,7 @@ namespace Desafio_Atendimento_CRM.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ClientePfId"));
 
-                    b.Property<int>("AtendimentosId")
+                    b.Property<int?>("AtendimentosId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Cpf")
@@ -92,6 +88,39 @@ namespace Desafio_Atendimento_CRM.Migrations
                     b.HasKey("ClientePfId");
 
                     b.ToTable("ClientePF");
+                });
+
+            modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Fornecedores", b =>
+                {
+                    b.Property<int>("Forn_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Forn_Id"));
+
+                    b.Property<string>("Cnpj")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Forn_Id");
+
+                    b.ToTable("Fornecedores");
                 });
 
             modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Pareceres", b =>
@@ -120,10 +149,6 @@ namespace Desafio_Atendimento_CRM.Migrations
                         .HasColumnType("integer");
 
                     b.HasKey("PareceresId");
-
-                    b.HasIndex("AtendimentosId");
-
-                    b.HasIndex("UsuariosId");
 
                     b.ToTable("Pareceres");
                 });
@@ -154,49 +179,6 @@ namespace Desafio_Atendimento_CRM.Migrations
                     b.HasKey("UsuariosId");
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Atendimentos", b =>
-                {
-                    b.HasOne("Desafio_Atendimento_CRM.Models.ClientePF", "Cliente")
-                        .WithMany()
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Desafio_Atendimento_CRM.Models.Usuarios", "Usuario")
-                        .WithMany()
-                        .HasForeignKey("UsuariosId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Cliente");
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Pareceres", b =>
-                {
-                    b.HasOne("Desafio_Atendimento_CRM.Models.Atendimentos", "Atendimento")
-                        .WithMany("Parecer")
-                        .HasForeignKey("AtendimentosId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Desafio_Atendimento_CRM.Models.Usuarios", "Usuario")
-                        .WithMany()
-                        .HasForeignKey("UsuariosId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Atendimento");
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Atendimentos", b =>
-                {
-                    b.Navigation("Parecer");
                 });
 #pragma warning restore 612, 618
         }
