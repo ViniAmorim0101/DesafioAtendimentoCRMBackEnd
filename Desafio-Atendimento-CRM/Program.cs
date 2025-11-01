@@ -1,6 +1,10 @@
+using AutoMapper;
 using Desafio_Atendimento_CRM.Data;
+using Desafio_Atendimento_CRM.DTOs;
+using Desafio_Atendimento_CRM.Models;
 using Desafio_Atendimento_CRM.Repository;
 using Desafio_Atendimento_CRM.Service;
+using Desafio_Atendimento_CRM.Mappings;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,11 +19,12 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
-
 
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IClienteService, ClienteService>();

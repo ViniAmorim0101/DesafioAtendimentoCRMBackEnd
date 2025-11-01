@@ -413,7 +413,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Fornecedores"
+                    "$ref": "#/components/schemas/ExportarFornecedoresDto"
                   }
                 }
               },
@@ -421,7 +421,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Fornecedores"
+                    "$ref": "#/components/schemas/ExportarFornecedoresDto"
                   }
                 }
               },
@@ -429,7 +429,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Fornecedores"
+                    "$ref": "#/components/schemas/ExportarFornecedoresDto"
                   }
                 }
               }
@@ -445,17 +445,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/CriarFornecedoresDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/CriarFornecedoresDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/CriarFornecedoresDto"
               }
             }
           }
@@ -466,17 +466,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               }
             }
@@ -506,17 +506,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               }
             }
@@ -542,17 +542,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/EditarFornecedoresDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/EditarFornecedoresDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Fornecedores"
+                "$ref": "#/components/schemas/EditarFornecedoresDto"
               }
             }
           }
@@ -563,17 +563,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Fornecedores"
+                  "$ref": "#/components/schemas/ExportarFornecedoresDto"
                 }
               }
             }
@@ -1044,13 +1044,64 @@
         },
         "additionalProperties": false
       },
-      "Fornecedores": {
+      "CriarFornecedoresDto": {
         "type": "object",
         "properties": {
-          "forn_Id": {
-            "type": "integer",
-            "format": "int32",
+          "nome": {
+            "type": "string",
             "nullable": true
+          },
+          "cnpj": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EditarFornecedoresDto": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnpj": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExportarFornecedoresDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
           },
           "nome": {
             "type": "string",

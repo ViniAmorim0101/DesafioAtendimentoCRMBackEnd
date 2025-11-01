@@ -1,34 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\",
+  "WorkspaceRootPath": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\repository\\fornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:repository\\fornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\projeto crm backend\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\dtos\\exportarfornecedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:dtos\\exportarfornecedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\models\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:models\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\projeto crm backend\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\projeto crm backend\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\repository\\ifornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:repository\\ifornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\projeto crm backend\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\repository\\fornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:repository\\fornecedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\backend projeto crm\\desafio-atendimento-crm\\service\\ifornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:service\\ifornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\projeto crm backend\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\models\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:models\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,99 +29,80 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 186,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFornecedoresRepository.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Repository\\IFornecedoresRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IFornecedoresRepository.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Repository\\IFornecedoresRepository.cs",
-              "RelativeToolTip": "Repository\\IFornecedoresRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FornecedoresController.cs",
+              "DocumentMoniker": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FornecedoresController.cs",
+              "ToolTip": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
+              "RelativeToolTip": "Controllers\\FornecedoresController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T23:10:07.882Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FornecedoresRepository.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Repository\\FornecedoresRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\FornecedoresRepository.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Repository\\FornecedoresRepository.cs",
-              "RelativeToolTip": "Repository\\FornecedoresRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T23:12:31.594Z",
+              "WhenOpened": "2025-11-01T16:33:13.954Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IFornecedoresService.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Service\\IFornecedoresService.cs",
-              "RelativeDocumentMoniker": "Service\\IFornecedoresService.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Service\\IFornecedoresService.cs",
-              "RelativeToolTip": "Service\\IFornecedoresService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:44:51.721Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FornecedoresService.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
+              "DocumentMoniker": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
               "RelativeDocumentMoniker": "Service\\FornecedoresService.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
+              "ToolTip": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
               "RelativeToolTip": "Service\\FornecedoresService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwBsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:54:06.913Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-01T16:55:37.378Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FornecedoresController.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FornecedoresController.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
-              "RelativeToolTip": "Controllers\\FornecedoresController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDMAAABIAAAAAAAAAA==",
+              "Title": "FornecedoresRepository.cs",
+              "DocumentMoniker": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Repository\\FornecedoresRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FornecedoresRepository.cs",
+              "ToolTip": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Repository\\FornecedoresRepository.cs",
+              "RelativeToolTip": "Repository\\FornecedoresRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:39:11.445Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-01T16:56:10.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fornecedores.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Models\\Fornecedores.cs",
-              "RelativeDocumentMoniker": "Models\\Fornecedores.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Models\\Fornecedores.cs",
-              "RelativeToolTip": "Models\\Fornecedores.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ExportarFornecedoresDto.cs",
+              "DocumentMoniker": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\DTOs\\ExportarFornecedoresDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ExportarFornecedoresDto.cs",
+              "ToolTip": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\DTOs\\ExportarFornecedoresDto.cs",
+              "RelativeToolTip": "DTOs\\ExportarFornecedoresDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T22:16:46.419Z",
-              "IsPinned": true
+              "WhenOpened": "2025-11-01T17:12:27.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\VINI\\BACKEND PROJETO CRM\\Desafio-Atendimento-CRM\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Title": "Fornecedores.cs",
+              "DocumentMoniker": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Models\\Fornecedores.cs",
+              "RelativeDocumentMoniker": "Models\\Fornecedores.cs",
+              "ToolTip": "D:\\VINI\\Projeto CRM Backend\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Models\\Fornecedores.cs",
+              "RelativeToolTip": "Models\\Fornecedores.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T00:19:06.86Z"
+              "WhenOpened": "2025-11-01T17:11:14.814Z",
+              "EditorCaption": ""
             }
           ]
         }

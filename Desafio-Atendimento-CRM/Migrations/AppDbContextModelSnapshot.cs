@@ -17,7 +17,7 @@ namespace Desafio_Atendimento_CRM.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.4")
+                .HasAnnotation("ProductVersion", "9.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -92,11 +92,11 @@ namespace Desafio_Atendimento_CRM.Migrations
 
             modelBuilder.Entity("Desafio_Atendimento_CRM.Models.Fornecedores", b =>
                 {
-                    b.Property<int>("Forn_Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Forn_Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Cnpj")
                         .IsRequired()
@@ -118,7 +118,7 @@ namespace Desafio_Atendimento_CRM.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("Forn_Id");
+                    b.HasKey("Id");
 
                     b.ToTable("Fornecedores");
                 });
