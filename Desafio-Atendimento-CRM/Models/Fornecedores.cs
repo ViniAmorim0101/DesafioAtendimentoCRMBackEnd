@@ -18,14 +18,20 @@ namespace Desafio_Atendimento_CRM.Models
         public string Email { get; set; }
         [Required]
         public string Tipo { get; set; } = string.Empty;
+        public string StatusValidacao { get; set; }
+        [Required]
+        public int AnosDeAtividade { get; set; }
+        public int QuantidadeDeReclamacoes { get; set; } = 0;
 
-        public Fornecedores(string nome, string cnpj, string telefone, string email, string tipo) 
+        public Fornecedores(string nome, string cnpj, string telefone, string email, string tipo, int anosDeAtividade, int quantidadeDeReclamacoes) 
         {
             Nome = nome;
             Cnpj = cnpj;
             Telefone = telefone;
             Email = email;
             Tipo = tipo;
+            AnosDeAtividade = anosDeAtividade;
+            QuantidadeDeReclamacoes = quantidadeDeReclamacoes;
         }
     }
 }

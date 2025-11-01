@@ -1,5 +1,6 @@
 ﻿using Desafio_Atendimento_CRM.Repository;
 using Desafio_Atendimento_CRM.Models;
+using Desafio_Atendimento_CRM.Service.Servicos_Fornecedores;
 
 namespace Desafio_Atendimento_CRM.Service
 {
@@ -25,6 +26,25 @@ namespace Desafio_Atendimento_CRM.Service
 
         public async Task<Fornecedores> CriarFornecedorServiceAsync(Fornecedores fornecedor)
         {
+
+            ValidadorFornecedorService validadorFornecedor = new ValidadorFornecedorService();
+
+            bool cnpjValido = validadorFornecedor.CnpjValido(fornecedor.Cnpj);
+            bool cnpjBloqueado = validadorFornecedor.ValidarSeEstaBloqueado(fornecedor.Cnpj);
+            bool maisDeDoisAnosDeAtividade = validadorFornecedor.MaisDe2AnosDeAtividade(fornecedor.AnosDeAtividade);
+            string nivelRisco = validadorFornecedor.RiscoDeReclamacoes(fornecedor.QuantidadeDeReclamacoes);
+
+            if (!cnpjValido || cnpjBloqueado)
+            {
+                fornecedor.StatusValidacao = "Rejeitado";
+            }else if (!maisDeDoisAnosDeAtividade || fornecedor.QuantidadeDeReclamacoes > 3)
+            {
+                fornecedor.StatusValidacao = "Em analise";
+            }else
+            {
+                fornecedor.StatusValidacao = "Aprovado";
+            }
+
             var novoFornecedor = await _fornecedoresRepository.CriarFornecedorRepAsync(fornecedor);
             return novoFornecedor;
         }
