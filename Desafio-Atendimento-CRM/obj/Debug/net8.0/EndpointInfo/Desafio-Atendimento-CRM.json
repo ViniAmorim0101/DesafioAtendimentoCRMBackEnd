@@ -1066,6 +1066,14 @@
           "tipo": {
             "type": "string",
             "nullable": true
+          },
+          "anosDeAtividade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidadeDeReclamacoes": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1092,6 +1100,14 @@
           "tipo": {
             "type": "string",
             "nullable": true
+          },
+          "anosDeAtividade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidadeDeReclamacoes": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1122,6 +1138,18 @@
           "tipo": {
             "type": "string",
             "nullable": true
+          },
+          "statusValidacao": {
+            "type": "string",
+            "nullable": true
+          },
+          "anosDeAtividade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidadeDeReclamacoes": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
