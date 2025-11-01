@@ -1,6 +1,9 @@
-﻿using Desafio_Atendimento_CRM.Models;
+﻿using AutoMapper;
+using Desafio_Atendimento_CRM.DTOs;
+using Desafio_Atendimento_CRM.Models;
 using Desafio_Atendimento_CRM.Service;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography.X509Certificates;
 
 
 namespace Desafio_Atendimento_CRM.Controllers
@@ -10,19 +13,22 @@ namespace Desafio_Atendimento_CRM.Controllers
     public class FornecedoresController : ControllerBase
     {
         private readonly IFornecedoresService _fornecedoresService;
+        private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedoresService fornecedoresService)
+        public FornecedoresController(IFornecedoresService fornecedoresService, IMapper mapper)
         {
             _fornecedoresService = fornecedoresService;
+            _mapper = mapper;
         }
        
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Fornecedores>>> BuscarFornecedoresAsync()
+        public async Task<ActionResult<IEnumerable<ExportarFornecedoresDto>>> BuscarFornecedoresAsync()
         {
             try
             {
                 var fornecedores = await _fornecedoresService.BuscarFornecedoresServiceAsync();
-                return Ok(fornecedores);
+                var fornecedoresDto = _mapper.Map<IEnumerable<ExportarFornecedoresDto>>(fornecedores);
+                return Ok(fornecedoresDto);
             }
             catch (Exception ex)
             {
@@ -31,12 +37,13 @@ namespace Desafio_Atendimento_CRM.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Fornecedores>> BuscarFornecedoresPorIdAsync(int id)
+        public async Task<ActionResult<ExportarFornecedoresDto>> BuscarFornecedoresPorIdAsync(int id)
         {
             try
             {
                 var fornecedores = await _fornecedoresService.BuscarFornecedoresPorIdServiceAsync(id);
-                return Ok(fornecedores);
+                var fornecedoresDto = _mapper.Map<ExportarFornecedoresDto>(fornecedores);
+                return Ok(fornecedoresDto);
             } 
             catch (Exception ex)
             {
@@ -45,12 +52,14 @@ namespace Desafio_Atendimento_CRM.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Fornecedores>> CriarFornecedorAsync([FromBody] Fornecedores fornecedor)
+        public async Task<ActionResult<ExportarFornecedoresDto>> CriarFornecedorAsync([FromBody] CriarFornecedoresDto fornecedor)
         {
             try
             {
-                var novoFornecedor = await _fornecedoresService.CriarFornecedorServiceAsync(fornecedor);
-                return Ok(novoFornecedor);
+                var fornecedorEntidade = _mapper.Map<Fornecedores>(fornecedor);
+                var novoFornecedor = await _fornecedoresService.CriarFornecedorServiceAsync(fornecedorEntidade);
+                var fornecedorExportarDto = _mapper.Map<ExportarFornecedoresDto>(novoFornecedor);
+                return Ok(fornecedorExportarDto);
             }
             catch (Exception ex)
             {
@@ -59,12 +68,14 @@ namespace Desafio_Atendimento_CRM.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Fornecedores>> AtualizarFornecedorAsync(int id, Fornecedores fornecedor)
+        public async Task<ActionResult<ExportarFornecedoresDto>> AtualizarFornecedorAsync(int id, EditarFornecedoresDto fornecedor)
         {
             try
             {
-                var fornecedorAtualizado = await _fornecedoresService.AtualizarFornecedorServiceAsync(id, fornecedor);
-                return Ok(fornecedorAtualizado);
+                var fornecedorEntidade = _mapper.Map<Fornecedores>(fornecedor);
+                var fornecedorAtualizado = await _fornecedoresService.AtualizarFornecedorServiceAsync(id, fornecedorEntidade);
+                var fornecedorExportarDto = _mapper.Map<ExportarFornecedoresDto>(fornecedorAtualizado);
+                return Ok(fornecedorExportarDto);
             }
             catch (Exception ex)
             {
@@ -72,7 +83,6 @@ namespace Desafio_Atendimento_CRM.Controllers
             }
         }
 
-        // DELETE api/<FornecedoresController>/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> ExcluirFornecedorAsync(int id)
         {
