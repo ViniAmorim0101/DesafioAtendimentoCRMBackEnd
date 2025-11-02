@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio-Atendimento-CRM", "Desafio-Atendimento-CRM.csproj", "{09070701-2559-43A1-89E6-59B5C53F3A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoTestesUnitarios", "..\ProjetoTestesUnitarios\ProjetoTestesUnitarios.csproj", "{1265C184-154C-452C-B2E7-C809D758E562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{09070701-2559-43A1-89E6-59B5C53F3A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09070701-2559-43A1-89E6-59B5C53F3A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09070701-2559-43A1-89E6-59B5C53F3A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1265C184-154C-452C-B2E7-C809D758E562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1265C184-154C-452C-B2E7-C809D758E562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1265C184-154C-452C-B2E7-C809D758E562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1265C184-154C-452C-B2E7-C809D758E562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
