@@ -3,16 +3,11 @@
   "WorkspaceRootPath": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\proj backend crm\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:service\\fornecedoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1265C184-154C-452C-B2E7-C809D758E562}|..\\ProjetoTestesUnitarios\\ProjetoTestesUnitarios.csproj|d:\\vini\\proj backend crm\\desafioatendimentocrmbackend\\projetotestesunitarios\\testesunitariosservicosfornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\proj backend crm\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\service\\servicos fornecedores\\validadorfornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:service\\servicos fornecedores\\validadorfornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|d:\\vini\\proj backend crm\\desafioatendimentocrmbackend\\desafio-atendimento-crm\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09070701-2559-43A1-89E6-59B5C53F3A27}|Desafio-Atendimento-CRM.csproj|solutionrelative:controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,44 +21,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FornecedoresController.cs",
-              "DocumentMoniker": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FornecedoresController.cs",
-              "ToolTip": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Controllers\\FornecedoresController.cs",
-              "RelativeToolTip": "Controllers\\FornecedoresController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T16:33:13.954Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FornecedoresService.cs",
-              "DocumentMoniker": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
-              "RelativeDocumentMoniker": "Service\\FornecedoresService.cs",
-              "ToolTip": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\FornecedoresService.cs",
-              "RelativeToolTip": "Service\\FornecedoresService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T16:55:37.378Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ValidadorFornecedorService.cs",
               "DocumentMoniker": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\Servicos Fornecedores\\ValidadorFornecedorService.cs",
               "RelativeDocumentMoniker": "Service\\Servicos Fornecedores\\ValidadorFornecedorService.cs",
               "ToolTip": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\Desafio-Atendimento-CRM\\Service\\Servicos Fornecedores\\ValidadorFornecedorService.cs",
               "RelativeToolTip": "Service\\Servicos Fornecedores\\ValidadorFornecedorService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T17:54:37.332Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestesUnitariosServicosFornecedor.cs",
+              "DocumentMoniker": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\ProjetoTestesUnitarios\\TestesUnitariosServicosFornecedor.cs",
+              "RelativeDocumentMoniker": "..\\ProjetoTestesUnitarios\\TestesUnitariosServicosFornecedor.cs",
+              "ToolTip": "D:\\VINI\\PROJ BACKEND CRM\\DesafioAtendimentoCRMBackEnd\\ProjetoTestesUnitarios\\TestesUnitariosServicosFornecedor.cs",
+              "RelativeToolTip": "..\\ProjetoTestesUnitarios\\TestesUnitariosServicosFornecedor.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T17:43:27.767Z",
               "EditorCaption": ""
             },
             {

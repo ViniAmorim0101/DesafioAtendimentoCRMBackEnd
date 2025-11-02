@@ -42,7 +42,7 @@ namespace Desafio_Atendimento_CRM.Service.Servicos_Fornecedores
         {
             if (quantidadeDeReclamacoes > 3)
             { return "Alto Risco"; }
-            else if (quantidadeDeReclamacoes == 1 && quantidadeDeReclamacoes < 3)
+            else if (quantidadeDeReclamacoes >= 1 && quantidadeDeReclamacoes < 3)
             { return "Médio Risco"; }
             else
             { return "Baixo Risco";}
